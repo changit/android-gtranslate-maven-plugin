@@ -1,0 +1,1 @@
+follow this http://chandana-j2ee.blogspot.com/2013/10/auto-translate-android-i18n-language.html
