@@ -72,7 +72,7 @@ public class GTranslator extends AbstractMojo {
 	}
 
 	protected void saveAsAFile(Map<String, String> tranlated, String langPrefix) throws IOException {
-		File valueFolder = new File(destDirectory.getAbsolutePath()+ File.separator + "value-"+langPrefix);
+		File valueFolder = new File(destDirectory.getAbsolutePath()+ File.separator + "values-"+langPrefix);
 		valueFolder.mkdir();
 		String filePath = valueFolder.getAbsolutePath()+File.separator+"string.xml";
 		System.out.println("Writing to file path " + filePath);
